@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="ko">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>영화 정보 - 인터스텔라 & 기생충</title>
+<style>
+  * { box-sizing: border-box; margin: 0; padding: 0; }
+  body {
+    font-family: "Malgun Gothic", "Apple SD Gothic Neo", sans-serif;
+    background: #111827;
+    color: #e5e7eb;
+    padding: 40px 16px;
+  }
+  h1 { text-align: center; margin-bottom: 32px; color: #fff; }
+  .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    justify-content: center;
+    max-width: 1000px;
+    margin: 0 auto;
+  }
+  .card {
+    background: #1f2937;
+    border-radius: 12px;
+    padding: 24px;
+    width: 440px;
+    max-width: 100%;
+    box-shadow: 0 4px 16px rgba(0,0,0,.4);
+  }
+  .card h2 { color: #fbbf24; margin-bottom: 4px; }
+  .card .en { color: #9ca3af; margin-bottom: 16px; font-size: 14px; }
+  table { width: 100%; border-collapse: collapse; margin-bottom: 16px; }
+  th, td { text-align: left; padding: 8px 4px; border-bottom: 1px solid #374151; font-size: 14px; vertical-align: top; }
+  th { width: 80px; color: #9ca3af; font-weight: normal; }
+  .plot { font-size: 14px; line-height: 1.6; }
+</style>
+</head>
+<body>
+  <h1>🎬 영화 정보</h1>
+  <div class="container">
+
+    <div class="card">
+      <h2>인터스텔라</h2>
+      <p class="en">Interstellar</p>
+      <table>
+        <tr><th>감독</th><td>크리스토퍼 놀란</td></tr>
+        <tr><th>개봉</th><td>2014년 (한국 11월 6일)</td></tr>
+        <tr><th>장르</th><td>SF, 드라마, 모험</td></tr>
+        <tr><th>출연</th><td>매튜 맥커너히, 앤 해서웨이, 제시카 차스테인</td></tr>
+        <tr><th>상영시간</th><td>169분</td></tr>
+        <tr><th>국가</th><td>미국, 영국</td></tr>
+      </table>
+      <p class="plot">
+        식량난과 환경 파괴로 멸망해 가는 지구. 전직 우주비행사 쿠퍼는 인류가 이주할 새로운 행성을 찾기 위해
+        웜홀을 통과하는 우주 탐사 임무에 나선다. 시간과 공간을 넘나드는 여정 속에서 가족에 대한 사랑과
+        인류의 생존을 건 선택이 펼쳐진다.
+      </p>
+    </div>
+
+    <div class="card">
+      <h2>기생충</h2>
+      <p class="en">Parasite</p>
+      <table>
+        <tr><th>감독</th><td>봉준호</td></tr>
+        <tr><th>개봉</th><td>2019년 (한국 5월 30일)</td></tr>
+        <tr><th>장르</th><td>드라마, 스릴러, 블랙코미디</td></tr>
+        <tr><th>출연</th><td>송강호, 이선균, 조여정, 최우식, 박소담</td></tr>
+        <tr><th>상영시간</th><td>132분</td></tr>
+        <tr><th>국가</th><td>대한민국</td></tr>
+      </table>
+      <p class="plot">
+        전원백수로 살 길 막막한 기택 가족. 장남 기우가 고액 과외 면접을 위해 박 사장네 집에 발을 들이면서
+        두 가족의 만남이 시작된다. 제72회 칸 영화제 황금종려상, 제92회 아카데미 시상식 작품상·감독상·
+        각본상·국제영화상을 수상했다.
+      </p>
+    </div>
+
+  </div>
+</body>
+</html>
